@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./stylee.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#"name="header"></a>
+      <div class="container">
+        <p class="header-text">Brit<span>lex</span></p>
+        <nav class="nav-list">
+          <li class="nav-list-item"><a href="#header">Home</a></li>
+          <li class="nav-list-item"><a href="#skills">Skills</a></li>
+          <li class="nav-list-item"><a href="#about-us">About Us</a></li>
+          <li class="nav-list-item"><a href="#pricing">Pricing</a></li>
+          <li class="nav-list-item"><a href="#contacts">Contacts</a></li>
+        </nav>
+        <button class="header-text-two">Let’s Talk</button>
+        <svg class="svg-burger">
+          <use href="./burger-menu.svg#my-svg"></use>
+        </svg>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <picture class="hero-img">
+          <source
+            srcset="
+              ./img/webp-hero/languages-bro320@1x.webp 1x,
+              ./img/webp-hero/languages-bro320@2x.webp 2x,
+              ./img/webp-hero/languages-bro320@3x.webp 3x
+            "
+            type="image/webp"
+            media="(max-width: 574px)"
+          />
+          <source
+            srcset="
+              ./img/jpg-hero/languages-bro320@1x.jpg 1x,
+              ./img/jpg-hero/languages-bro320@2x.jpg 2x,
+              ./img/jpg-hero/languages-bro320@3x.jpg 3x
+            "
+            media="(max-width: 574px)"
+          />
+          <source
+            srcset="
+              ./img/webp-hero/languages-bro575@1x.webp 1x,
+              ./img/webp-hero/languages-bro575@2x.webp 2x,
+              ./img/webp-hero/languages-bro575@3x.webp 3x
+            "
+            type="image/webp"
+            media="(max-width: 767px)"
+          />
+          <source
+            srcset="
+              ./img/jpg-hero/languages-bro575@1x.jpg 1x,
+              ./img/jpg-hero/languages-bro575@2x.jpg 2x,
+              ./img/jpg-hero/languages-bro575@3x.jpg 3x
+            "
+            media="(max-width: 767px)"
+          />
+          <source
+            srcset="
+              ./img/webp-hero/languages-bro768@1x.webp 1x,
+              ./img/webp-hero/languages-bro768@2x.webp 2x,
+              ./img/webp-hero/languages-bro768@3x.webp 3x
+            "
+            type="image/webp"
+            media="(max-width: 991px)"
+          />
+          <source
+            srcset="
+              ./img/jpg-hero/languages-bro768@1x.jpg 1x,
+              ./img/jpg-hero/languages-bro768@2x.jpg 2x,
+              ./img/jpg-hero/languages-bro768@3x.jpg 3x
+            "
+            media="(max-width: 991px)"
+          />
+          <source
+            srcset="
+              ./img/webp-hero/languages-bro992@1x.webp 1x,
+              ./img/webp-hero/languages-bro992@2x.webp 2x,
+              ./img/webp-hero/languages-bro992@3x.webp 3x
+            "
+            type="image/webp"
+            media="(max-width: 1599px)"
+          />
+          <source
+            srcset="
+              ./img/jpg-hero/languages-bro992@1x.jpg 1x,
+              ./img/jpg-hero/languages-bro992@2x.jpg 2x,
+              ./img/jpg-hero/languages-bro992@3x.jpg 3x
+            "
+            media="(max-width: 1599px)"
+          />
+          <source
+            srcset="
+              ./img/webp-hero/languages-bro1600@1x.webp 1x,
+              ./img/webp-hero/languages-bro1600@2x.webp 2x,
+              ./img/webp-hero/languages-bro1600@3x.webp 3x
+            "
+            type="image/webp"
+            media="(min-width: 1599px)"
+          />
+          <source
+            srcset="
+              ./img/jpg-hero/languages-bro1600@1x.jpg 1x,
+              ./img/jpg-hero/languages-bro1600@2x.jpg 2x,
+              ./img/jpg-hero/languages-bro1600@3x.jpg 3x
+            "
+            media="(min-width: 1599px)"
+          />
+          <img src="#" alt="project photo" width="#" height="#" />
+        </picture>
+        <div class="hero-title-container">
+          <div class="img-container">
+            <h2 class="hero-title">Learn Any Foreign Language</h2>
+            <svg class="svg-bulb">
+              <use href="./img/bulb-icon.svg#light"></use>
+            </svg>
+          </div>
+          <p class="hero-text">
+            With our teachers who write a program for each student, you will be
+            able to make your first sketch after the first lesson.
+          </p>
+          <button class="hero-bottom"><p>Get started</p></button>
+        </div>
+      </section>
+      <section class="skills">
+      <a href="#"name="skills"></a>
+        <div class="skills-container">
+          <h3 class="skills-title">Skills</h3>
+          <ul class="skills-grid-list">
+            <li class="skills-grid-item skills-grid-item-1">
+              <svg class="skills-img skills-img-speaking">
+                <use href="./img/speaking.svg#svg-speaking"></use>
+              </svg>
+              <h2 class="skills-grid-title skills-grid-title-1">Speaking</h2>
+              <p class="skills-grid-text skills-grid-text-2">
+                Improve your English skills and confidence. Live classes and
+                interactive lessons online. 20% extra free for a limited time
+                only
+              </p>
+              <p class="skills-grid-text skills-grid-text-2 skills-grid-text-5">
+                Learn English online and improve your skills through our
+                high-quality courses and resources – all designed for adult
+                language learners.
+              </p>
+              <button class="skills-grid-button skills-grid-button-1">
+                Learn more
+              </button>
+            </li>
+            <li class="skills-grid-item skills-grid-item-2">
+              <svg class="skills-img skills-img-writing">
+                <use href="./img/writing.svg#svg-writing"></use>
+              </svg>
+              <h2 class="skills-grid-title skills-grid-title-2">Writing</h2>
+              <p class="skills-grid-text skills-grid-text-3 skills-grid-text-5">
+                One of the most important and extensive areas of natural
+                science, the science that studies substances, also their
+                composition
+              </p>
+              <button class="skills-grid-button">Learn more</button>
+            </li>
+            <li class="skills-grid-item skills-grid-item-3">
+              <svg class="skills-img skills-img-reading">
+                <use href="./img/reading.svg#svg-reading"></use>
+              </svg>
+              <h2 class="skills-grid-title skills-grid-title-3">Reading</h2>
+              <p class="skills-grid-text skills-grid-text-3 skills-grid-text-5">
+                Perception and response actions of the user resulting from the
+                use and/or upcoming use of the product, system or service
+              </p>
+              <button class="skills-grid-button">Learn more</button>
+            </li>
+            <li class="skills-grid-item skills-grid-item-4">
+              <svg class="skills-img skills-img-listening">
+                <use href="./img/listening.svg#svg-listening"></use>
+              </svg>
+              <div class="container-grid">
+                <h2 class="skills-grid-title">Listening</h2>
+                <p
+                  class="skills-grid-text skills-grid-text-4 skills-grid-text-5"
+                >
+                  Here you can find activities to practise your listening
+                  skills. Listening will help you to improve your understanding
+                </p>
+                <button class="skills-grid-button">Learn more</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about-us">
+        <a href="#"name="about-us"></a>
+        <div class="container-about-us">
+          <div class="container-about-us-3">
+            <h3 class="about-us-title about-us-title-1">About Us</h3>
+            <svg class="about-us-img">
+              <use href="./img/about-us.svg#svg-about-us"></use>
+            </svg>
+          </div>
+          <div class="container-about-us-2">
+            <h3 class="about-us-title about-us-title-2">About Us</h3>
+            <p class="about-us-text">
+              The model offers a framework for discussing problems related to
+              the user's experience, as well as possible ways and means of
+              solving them. Application development begins at the top level
+              (strategy), where the future software product is described quite
+              abstractly from the point of view of the expectations of both
+              users and the customer.
+            </p>
+            <ul class="about-us-list">
+              <li class="about-us-item">
+                <h2 class="about-us-item-title">800</h2>
+                <p class="about-us-item-text">Pupils</p>
+              </li>
+              <li class="about-us-item">
+                <h2 class="about-us-item-title">18</h2>
+                <p class="about-us-item-text">Teachers</p>
+              </li>
+              <li class="about-us-item">
+                <h2 class="about-us-item-title">6</h2>
+                <p class="about-us-item-text">Foreign languages</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="pricing">
+        <a href="#"name="pricing"></a>
+        <div class="pricing-container">
+          <h3 class="pricing-title">Pricing</h3>
+          <ul class="pricing-list">
+            <li class="pricing-item">
+              <svg class="pricing-img pricing-img-1">
+                <use
+                  href="./img/self-study-online-course.svg#svg-self-study"
+                ></use>
+              </svg>
+              <h2 class="pricing-item-title">Self-study online course</h2>
+              <p class="pricing-item-text">
+                Start learning English online in live classes with qualified EC
+                teachers and students from all over the world.
+              </p>
+              <button class="pricing-text"><span>£5.99</span> per month</button>
+            </li>
+            <li class="pricing-item">
+              <svg class="pricing-img pricing-img-2">
+                <use href="./img/live-online-classes.svg#svg-live"></use>
+              </svg>
+              <h2 class="pricing-item-title">Live online classes</h2>
+              <p class="pricing-item-text">
+                Interactive group classes with expert teachers. Free 7-day trial
+              </p>
+              <button class="pricing-text">
+                <span>£12.99</span> per month
+              </button>
+            </li>
+            <li class="pricing-item">
+              <svg class="pricing-img pricing-img-3">
+                <use href="./img/personal-tuition.svg#svg-personal"></use>
+              </svg>
+              <h2 class="pricing-item-title pricing-item-title-2">
+                Personal Tuition
+              </h2>
+              <p class="pricing-item-text">
+                Online one-to-one English tutoring – enjoy our first session for
+                only $1
+              </p>
+              <button class="pricing-text pricing-text-3">
+                <span>£20.99</span> per month
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="contacts">
+        <a href="#"name="contacts"></a>
+        <div class="container-contacts">
+          <div class="container-contacts-3">
+            <h3 class="contacts-title contacts-title-1">Contact Us</h3>
+            <svg class="contacts-img">
+              <use href="./img/fly-people.svg#svg-fly"></use>
+            </svg>
+          </div>
+          <div class="container-contacts-2">
+            <h3 class="contacts-title contacts-title-2">Contact Us</h3>
+            <p class="contacts-text">
+              Discover your current English level by taking our free online
+              English test. Sign up to our newsletter for learning tips and free
+              resource
+            </p>
+            <input type="text" class="contacts-input" />
+            <button class="contacts-botton">Subscribe</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container-footer">
+        <p class="footer-title">Brit<span>lex</span></p>
+        <ul class="footer-list">
+          <li class="footer-item">Terms and Conditions</li>
+          <li class="footer-item">Privacy Policy</li>
+          <li class="footer-item">Cookie Policy</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
